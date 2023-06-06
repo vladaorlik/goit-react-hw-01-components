@@ -18,7 +18,3 @@ StatisticsList.propTypes = {
     percentage: PropTypes.number.isRequired,
 })
 }
-
-// StatisticsList.propTypes = {
-//   data: PropTypes.object.isRequired,
-// }

@@ -16,18 +16,6 @@ export function StatisticsSection({ title, items }) {
     );
   }
 
-
-// StatisticsSection.propTypes = {
-//   title: PropTypes.string,
-//   items: PropTypes.arrayOf(
-//     PropTypes.exact({
-//       id: PropTypes.string.isRequired,
-//       label: PropTypes.string.isRequired,
-//       percentage: PropTypes.number.isRequired
-
-//   }))
-// };
-
 StatisticsSection.propTypes = {
   title: PropTypes.string,
   items: PropTypes.array.isRequired

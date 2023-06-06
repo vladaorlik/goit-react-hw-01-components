@@ -12,8 +12,7 @@ export function TransactionRow({ type, amount, currency }) {
   }
 
 
-  TransactionRow.propTypes = {
-    id: PropTypes.string.isRequired, 
+  TransactionRow.propTypes = { 
     type: PropTypes.string.isRequired, 
     amount: PropTypes.string.isRequired,
     currency: PropTypes.string.isRequired
